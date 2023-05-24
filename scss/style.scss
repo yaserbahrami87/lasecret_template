@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'yekan';
+  src: url("../fonts/W_yekan.ttf");
+}
+
+*
+{
+  font-family: 'yekan';
+  font-size: 1rem;
+}
+
+main{
+  height: 100vh;
+  background-image:url("../images/woman-art1-with-line.png"),radial-gradient(#ffffff,#dbdce1);
+  background-size: contain;
+  background-repeat: no-repeat,no-repeat;
+  background-position: 70% ,center;
+}
+
+#navbarSupportedContent li
+{
+  min-width: 120px;
+  text-align: center;
+  padding: 10px;
+
+  a{
+    background-color: #ffffff;
+  }
+
+}
