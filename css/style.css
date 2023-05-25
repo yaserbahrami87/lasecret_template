@@ -7,14 +7,22 @@
   font-size: 1rem;
 }
 
+body {
+  background-image: linear-gradient(to left, #dcdce1 30%, #e8d6dc 70%);
+}
+
 main {
   height: 100vh;
-  background-image: url("../images/woman-art1-with-line.png"), radial-gradient(#ffffff, #dbdce1);
+  background-image: url("../images/woman-art1-with-line.png"), radial-gradient(#ffffff, #dcdce1);
   background-size: contain;
   background-repeat: no-repeat, no-repeat;
   background-position: 70%, center;
 }
 
+#navbarSupportedContent {
+  position: sticky;
+  top: 0px;
+}
 #navbarSupportedContent li {
   min-width: 120px;
   text-align: center;
@@ -22,6 +30,88 @@ main {
 }
 #navbarSupportedContent li a {
   background-color: #ffffff;
+}
+
+#home_part2 {
+  height: 100vh;
+  background-image: url("../images/woman-art2-with-line.png"), linear-gradient(to left, #dcdce1 30%, #e8d6dc 70%);
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#home_part2 h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+#home_part2 .position-relative {
+  top: 12px;
+}
+#home_part2 nav {
+  margin-bottom: 20px;
+}
+#home_part2 #navbarPart2 {
+  padding-top: 20px;
+}
+#home_part2 #navbarPart2 li {
+  padding: 5px;
+  min-width: 120px;
+}
+#home_part2 #navbarPart2 li a {
+  background-color: #ecedf2;
+  min-height: 40px;
+}
+
+#navbarTop li {
+  min-width: 120px;
+  text-align: center;
+}
+
+#home_part3 {
+  height: 100vh;
+  background-image: url("../images/woman-art3-with-line.png"), linear-gradient(to right, #dcdce1 30%, #e8d6dc 70%);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#home_part3 .position-relative {
+  top: 55px;
+}
+#home_part3 #navbarPart3 {
+  padding-top: 20px;
+}
+#home_part3 #navbarPart3 li {
+  padding: 5px;
+  min-width: 120px;
+}
+#home_part3 #navbarPart3 li a {
+  background-color: #ecedf2;
+  min-height: 40px;
+}
+
+#home_part4 {
+  height: 100vh;
+  background-image: url("../images/woman-art4-with-line.png"), radial-gradient(#0e0d14, #394247);
+  background-position: 85%, center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#home_part4 .position-relative {
+  top: 300px;
+}
+
+#home_part5 {
+  height: 100vh;
+  background-image: url("../images/woman-art5-with-line.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#home_part5 > div:first-child {
+  margin-top: 230px;
+}
+
+#home_part6 {
+  height: 100vh;
+  background-color: #000000;
 }
 
 /*# sourceMappingURL=style.css.map */
